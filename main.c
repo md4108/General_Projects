@@ -22,6 +22,7 @@
 |
 |  Date      Name             Description of change
 | ========  ===============  ==================================================
+| 11/21/2016 M. Desai        Version 4.00.00
 | 03/10/2016 R. Hempel       Version 3.12.00
 | 03/04/2016 R. Hempel       Version 3.11.54
 | 02/17/2016 R. Hempel       Version 3.11.51
@@ -171,9 +172,9 @@ __CONFIG(3, CCP2RC1);
 __CONFIG(4, STVREN & LVPDIS);
 #endif
 
-/* code revision format 03.12.00 */
-__IDLOC(00031200);
-const unsigned char rev_number[] = { 0x03, 0x12, 0x00 };
+/* code revision format 04.00.00 */
+__IDLOC(00040000);
+const unsigned char rev_number[] = { 0x04, 0x00, 0x00 };
 
 //=== Global Variable Declarations (extern statement in file: "externs.h") ========
 #if (PANEL_3_5_ZONE)
